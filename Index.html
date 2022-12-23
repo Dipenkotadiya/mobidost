@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- Jquery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Custom CSS  -->
+  <link rel="shortcut icon" href="./image/arrow.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- fontawsome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  <title>MobiDost Index</title>
+</head>
+
+<body>
+
+  <div id="Full_contain">
+
+    <!-- MobiDost Navbar  -->
+    <div class="bg" style="background-color: #212529;">
+      <div class="container">
+
+        <div class="d-lg-flex p-3">
+
+          <div class="d-flex flex-column flex-md-row justify-content-md-center pb-lg-0 pb-md-3">
+            <div class="d-flex justify-content-center mb-3 mb-md-0 me-0 me-md-3 me-lg-2">
+              <span class="fs-6 me-2 text-white "><i class="fa-solid fa-phone-flip"></i></span>
+              <a class="nav-link me-2" href="#">Support: 888-782-1234</a>
+            </div>
+            <div class="vr d-none d-md-block text-light me-2"></div>
+
+            <div class="d-flex justify-content-center mb-3 mb-md-0 me-0 me-md-3 me-lg-2">
+              <span class="fs-6 text-white me-2"><i class="fa-solid fa-box"></i></span>
+              <a class="nav-link me-2" href="#">Delivery info</a>
+            </div>
+            <div class="vr d-none d-md-block text-light me-2"></div>
+
+            <div class="d-flex justify-content-center mb-3 mb-md-0 me-0 me-md-3 me-lg-2">
+              <span class="fs-6 text-white me-2"><i class="fa-solid fa-arrow-left"></i></span>
+              <a class="nav-link me-2" href="#">Return Product</a>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column flex-md-row justify-content-md-center ms-lg-auto">
+            <div class="d-flex justify-content-center mb-3 mb-md-0 me-0 me-md-3 me-lg-2">
+              <span class="fs-6 text-white me-2"><i class="fa-brands fa-whatsapp"></i></span>
+              <a class="nav-link me-2" aria-current="page" href="#">Whatsapp</a>
+            </div>
+            <div class="vr d-none d-md-block text-light me-2"></div>
+
+            <div class="d-flex justify-content-center ms-4 ms-md-3 ms-lg-2">
+              <span class="fs-6 text-white me-2"><i class="fa-solid fa-user"></i></span>
+              <a class="nav-link" aria-current="page" href="#" id="signin">Sign in</a>
+              justify </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- MobiDost Searchbar  -->
+      <div class="row mt-2">
+        <div class="col-4 col-md-3 col-lg-2 lh-1">
+          <div class="d-flex flex-column">
+            <p class="hi mb-1 fs-3 fw-semibold">Mobidost</p>
+            <p class="hi1 fw-bold">Aapka mobile ka dost</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 lh-1 ms-sm-auto d-none d-sm-block d-lg-none">
+          <button type="button" class="buybtn ms-sm-4">
+            <span class="position-relative fs-6 badge"><i class="fa-solid fa-cart-shopping"></i>
+              <span class="position-absolute p-1  border border-light rounded-pill fw-bold abc2">2
+                <span class="visually-hidden">New alerts</span></span>
+            </span>Rs. 200.00
+          </button>
+        </div>
+        <div class="col-sm-2 col-8 d-block  d-lg-none">
+          <nav class="navbar navbar-white bg-white position-static">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse position-absolute slidebar" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Cases & Covers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Headset</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Power Banks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Screen Protectors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Driver & Storage in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black text-nowrap" href="#">Accessories</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="col-lg-8 col-md-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-lg Search" placeholder="Search for best deals..."
+              aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+
+        <div class="col-lg-2 d-block d-sm-none d-lg-block">
+          <button type="button" class="buybtn mb-3 mb-sm-0">
+            <span class="position-relative fs-6 badge"><i class="fa-solid fa-cart-shopping"></i>
+              <span class="position-absolute p-1  border border-light rounded-pill fw-bold abc2">2
+                <span class="visually-hidden">New alerts</span></span>
+            </span>Rs. 200.00
+          </button>
+        </div>
+      </div>
+
+
+      <!-- MobiDost Navbar 2 -->
+      <div class="d-none d-sm-none d-md-none d-lg-block">
+        <nav class="nav mb-3  justify-content-center">
+          <a class="nav-link text-black" aria-current="page" href="#">Cases & Covers</a>
+          <a class="nav-link text-black" href="#">Headset</a>
+          <a class="nav-link text-black" href="#">Power Banks</a>
+          <a class="nav-link text-black" href="#">Screen Protectors</a>
+          <a class="nav-link text-black" href="#">Driver & Storage in</a>
+          <a class="nav-link text-black" href="#">Accessories</a>
+        </nav>
+      </div>
+
+      <!-- MobiDost image  -->
+      <img src="./image/Screenshot 2022-12-02_01.png" class="img-fluid container-xxl" alt="...">
+
+      <!-- MobiDost Top Cases & Covers     -->
+      <div class="mt-4">
+        <h2 class="fw-normal">Top Cases & Covers</h2>
+      </div>
+      <hr class="border border-dark border-1 opacity-100">
+
+      <!-- Card  -->
+      <div class="row g-4">
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/parrot.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/car.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/puzzal.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/creative_1.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/parrot.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/car.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/puzzal.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/creative_1.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View More Button  -->
+      <div class="text-center mt-5">
+        <button type="button" class="btn btn-dark px-4">View More</button>
+      </div>
+
+      <!-- Top Selling  -->
+      <div class="mt-4">
+        <h2 class="fw-normal">Top Selling</h2>
+      </div>
+      <hr class="border border-dark border-1 opacity-100 mt-0">
+
+      <!-- Card  -->
+      <div class="row g-4">
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/parrot.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/car.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/puzzal.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100 mx-auto mx-sm-0 width">
+            <img src="./image/creative_1.png" class="card-img-top smalling mx-auto mt-2" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-semibold">Sky Parrot Back Case for iphone 7</p>
+              <div class="d-flex mb-2 star">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star.png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+                <img class="me-1" src="./image/star (1).png" alt="" style="height: 20px; width: 20px;">
+              </div>
+              <div class="d-flex mb-2 align-items-baseline">
+                <p class="fs-2 text-primary me-4">Rs. 125</p>
+                <p class="text-dark opacity-50 fs-6 text-decoration-line-through">Rs. 250</p>
+              </div>
+              <div class="main-button">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-dark  text-nowrap me-xl-3 me-sm-1 me-3 px-md-2 px-3" href="./view_detail.html"
+                    role="button">View Details</a>
+                  <a class="btn btn-warning text-nowrap px-md-2 px-3" href="./Add_to_cart.html" role="button">Add to
+                    Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <hr class="border border-1 opacity-50" style="color: #EEF2F6;">
+      </div>
+
+      <!-- Free Shiping & Returns  -->
+      <div class="row  justify-content-center">
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="d-flex mb-3">
+            <img src="./image/icon1.png" alt="" style="height: auto; width: 100px;">
+            <p class="mt-3 me-lg-0 fs-5 fw-normal">Free Shiping & Returns</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="d-flex mb-3">
+            <img src="./image/icon2.png" alt="" style="height: auto; width: 100px;">
+            <p class="mt-3 me-md-4 me-lg-0 fs-5 fw-normal">90-Days Warranty</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <div class="d-flex mb-3">
+            <img src="./image/icon3.png" alt="" style="height: auto; width: 100px;">
+            <p class="mt-3 me-2 fs-5 fw-normal">Dost Experts</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- Container Close Tag-->
+  </div> <!-- Full_contain Close tag -->
+
+
+
+  <!-- Footer bar  -->
+  <div class="footer pb-2" style="background-color: #232F3E;">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <nav class="nav flex-column">
+            <a class="nav-link" aria-current="page" href="#">Get to Know Us</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Careers</a>
+            <a class="nav-link" href="#">Privacy Notice</a>
+            <a class="nav-link" href="#">Conditions of use & Sale</a>
+            <a class="nav-link" href="#">Free Shipping & Return</a>
+          </nav>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <nav class="nav flex-column">
+            <a class="nav-link" aria-current="page" href="#">Make Money with Us</a>
+            <a class="nav-link" href="#">Advertise Your Products</a>
+            <a class="nav-link" href="#">Become an Affiliate </a>
+            <a class="nav-link" href="#">Advertise Your Products</a>
+          </nav>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <nav class="nav flex-column">
+            <a class="nav-link" aria-current="page" href="#">Connect with Us</a>
+            <a class="nav-link" href="#">Facebook</a>
+            <a class="nav-link" href="#">Instagram</a>
+            <a class="nav-link" href="#">Twitter</a>
+          </nav>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <nav class="nav flex-column">
+            <a class="nav-link" aria-current="page" href="#">Let Us Help You</a>
+            <a class="nav-link" href="#">Your Account</a>
+            <a class="nav-link" href="#">Returns Centre</a>
+            <a class="nav-link" href="#">100% Purchase Protection</a>
+            <a class="nav-link" href="#">Help</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <hr class="border border-1 opacity-10" style="color: #EEF2F6;">
+      </div>
+
+      <div class="d-block text-center mt-4">
+        <p class="text-white">© 2018, Mobidost.in, India. All Rights Reserved.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Sign in modal box -->
+  <div id="signin_modal" class="modalbg">
+    <div class="main-modal">
+      <div class="modal-content">
+
+        <div class="close me-3">
+          <span id="remove"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <hr style="margin: 0 0 1rem;">
+        <div class="img_content">
+          <img src="./image/icon.png" alt="" class="icon">
+          <h2 style="margin: 5px;">Sign in</h2>
+          <p style="margin-top: 8px;">Welcome back! We are happy you like Mobidost</p>
+        </div>
+
+        <div class="form">
+          <form action="">
+            <div class="input">
+              <label for="">Email address/Mobile Number</label>
+              <input type="text" name="email">
+            </div>
+            <div class="input">
+              <label for="">Password</label>
+              <input type="password" name="password">
+              <div class="forgoten"><a class="a" href="#">Forgoten Password?</a></div>
+            </div>
+            <div class="signin">
+              <button class="btn1" type="button">Sign in</button>
+              <p class="mt-2" style="font-weight: bold;">Don't have an account yet?
+                <a id="signup" href="#">Sign up!</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up Modal Box  -->
+  <div id="signup_modal" class="modalbg">
+    <div class="main-modal">
+      <div class="modal-content">
+
+        <div class="close me-3">
+          <span id="remove2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <hr style="margin: 0 0 1rem;">
+        <div class="img_content">
+          <img src="./image/icon.png" alt="" class="icon">
+          <h2>Sign up</h2>
+          <p>Welcome back! We are happy you are joining Mobidost</p>
+        </div>
+
+        <div class="form">
+          <form action="">
+            <div class="input">
+              <label for="">User Name</label>
+              <div class="d-flex">
+                <input type="text" name="name" class="me-3">
+                <input type="text" name="name" class="me-3">
+              </div>
+            </div>
+            <div class="input">
+              <label for="">Password</label>
+              <input type="password" name="password">
+            </div>
+            <div class="input">
+              <label for="">Confirm Password</label>
+              <input type="password" name="password">
+            </div>
+            <div class="signup mt-4">
+              <button class="btn1 mt-2" type="button" id="signupbtn">Sign up</button>
+              <p class="mt-2" style="font-weight: bold;">Alredy have an account?
+                <a id="signin1" href="#">Sign in!</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up Confirm Modal Box  -->
+  <div id="signup_modal1" class="modalbg">
+    <div class="main-modal">
+      <div class="modal-content">
+        <div class="close me-3">
+          <span id="remove3"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <hr style="margin: 0 0 1rem;">
+        <div class="img_content">
+          <img src="./image/icon.png" alt="" class="icon">
+          <h2 style="margin: 5px;">Sign up</h2>
+          <p style="margin-top: 8px;">Welcome back! We are happy you are joining Mobidost</p>
+        </div>
+        <div class="form">
+          <form action="">
+            <div class="input">
+              <label for="">Email address/Mobile Number</label>
+              <input type="text" name="email">
+            </div>
+            <div class="input">
+              <label for="">OTP Send to email / mobile number</label>
+              <input type="password" name="password">
+              <div class="mt-1" style="text-align: right;"><a class="a" href="#">Resend OTP?</a></div>
+            </div>
+            <div class="abc3">
+              <button class="btn1 mt-1" type="button">Sign Up</button>
+              <p class="mt-2" style="font-weight: bold;">Alredy have an account?
+                <a id="signin2" href="#">Sign in!</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
+
+  <!-- Custom JS  -->
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
